@@ -31,12 +31,6 @@ A multi-feature **web app** built using only **HTML, CSS, and modern ES6 JavaScr
 - **CSS3**  
 - **JavaScript (ES6)**  
 
----
-
-## 🎥 Demo  
-👉 (Add your GitHub Pages link here once you publish it)  
-
----
 
 ## 📌 How to Run Locally  
 1. Clone the repository:  
