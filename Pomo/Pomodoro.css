@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../MyFont.ttf');
+}
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  
+}
+.pomodoro {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 100px;
+  font-size: large;
+  color: white;
+  font-family: 'MyFont';
+  text-shadow: 4px 1px 5px rgba(0,0,0,0.6);
+  
+}
+#timer {
+  font-size: 60px;
+  margin: 20px 0;
+  text-shadow: 4px 1px 5px rgba(0,0,0,0.6);
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f2452a;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  text-shadow: 4px 1px 5px rgba(0,0,0,0.6);
+}
+
+.controls button:hover {
+  background-color: #b82319;
+}
+.home
+{
+ position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #e9e7e7;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+    align-items: center;
+    display: flex;
+  justify-content:center;
+  text-decoration: none;
+ 
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+}
+.home:hover {
+    transform: scale(1.05);
+  background-color: #ddd1d1;
+}
